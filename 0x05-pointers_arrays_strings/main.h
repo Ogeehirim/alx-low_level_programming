@@ -1,69 +1,63 @@
-nclude "main.h"
+/*putchar function*/
 
-#include <stdio.h>
-
-
-
-/**
- *
- *  * main - check the code 
- *
- *   *
- *
- *    * Return: Always 0.
- *
- *     */
-
-int main(void)
-
-{
-
-	    int n;
+int _putchar(char c);
 
 
 
-	        n = 402;
+/* assigns the memory of an int to pointer*/
 
-		    printf("n=%d\n", n);
-
-		        reset_to_98(&n);
-
-			    printf("n=%d\n", n);
-
-			        return (0);
-
-}i#include "main.h"
-
-#include <stdio.h>
+void reset_to_98(int *n);
 
 
 
-/**
- *
- *  * main - check the code 
- *
- *   *
- *
- *    * Return: Always 0.
- *
- *     */
+/*this function swaps two given numbers*/
 
-int main(void)
-
-{
-
-	    int n;
+void swap_int(int *a, int *b);
 
 
 
-	        n = 402;
+/* returns the length of a given string*/
 
-		    printf("n=%d\n", n);
+int _strlen(char *s);
 
-		        reset_to_98(&n);
 
-			    printf("n=%d\n", n);
 
-			        return (0);
+/* prints a string with the _putchar fx*/
 
-}
+void _puts(char *str);
+
+
+
+/*print strings in reverse*/
+
+void print_rev(char *s);
+
+
+
+/*reverses strings*/
+
+void rev_string(char *s);
+
+
+
+/* print one skip one with strings*/
+
+void puts2(char *str);
+
+
+
+/* print second half of string*/
+
+void puts_half(char *str);
+
+
+
+/* prints n number of array elements*/
+
+void print_array(int *a, int n);
+
+
+
+/*copy from one string to another*/
+
+char *_strcpy(char *dest, char *src)
