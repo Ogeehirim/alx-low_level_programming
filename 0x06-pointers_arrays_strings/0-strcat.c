@@ -13,6 +13,7 @@ char *_strcat(char *dest, char *src)
 
 {
 	char *sum = strcat(dest, src);
+
 	return (sum);
 }
 
