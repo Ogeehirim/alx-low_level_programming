@@ -8,6 +8,7 @@
  * Return: returns the concatenated text.
  */
 
+
 char *_strcat(char *dest, char *src)
 
 {
