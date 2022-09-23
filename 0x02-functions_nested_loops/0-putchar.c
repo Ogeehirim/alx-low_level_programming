@@ -9,10 +9,10 @@
 
 int main(void)
 {
-/*@parameter a: stores command*/
-char *a = "_putchar";
-while (*a)
-{
+	/*@parameter a: stores command*/
+	char *a = "_putchar";
+	while (*a)
+	{	
 	_putchar (*a);
 	a++;
 	}
